@@ -33,7 +33,7 @@ public class CalculosTest {
 
     @Test(expected = Exception.class)
     public void calcularAreaTrianguloRetanguloComBaseNegativa() throws Exception {
-        System.out.println("============ calcularAreaTrianguloRetangulo ============");
+        System.out.println("============ calcularAreaTrianguloRetanguloComBaseNegativa ============");
 //        arrange
         float atual = 0;
         float esperado = 220;
@@ -43,7 +43,7 @@ public class CalculosTest {
 
     @Test(expected = Exception.class)
     public void calcularAreaTrianguloRetanguloComAlturaNegativa() throws Exception {
-        System.out.println("============ calcularAreaTrianguloRetangulo ============");
+        System.out.println("============ calcularAreaTrianguloRetanguloComAlturaNegativa ============");
 //        arrange
         float atual = 0;
         float esperado = -220;
@@ -109,7 +109,7 @@ public class CalculosTest {
 
     @Test
     public void calcularBhaskaraComDeltaIgualAZero() throws Exception {
-        System.out.println("============ calcularBhaskaraComDeltaNegativo ============");
+        System.out.println("============ calcularBhaskaraComDeltaIgualAZero ============");
 //        arrange
         HashMap<String, Float> esperado = new HashMap();
         esperado.put("x1",(float) -12);
@@ -125,7 +125,7 @@ public class CalculosTest {
 
     @Test
     public void calcularIMC() throws Exception {
-        System.out.println("============ calcularBhaskaraComDeltaNegativo ============");
+        System.out.println("============ calcularIMC ============");
 //        arrange
         double atual = 0;
         double esperado = 0;
@@ -137,7 +137,7 @@ public class CalculosTest {
 
     @Test(expected = Exception.class)
     public void calcularIMCComPesoNegativo() throws Exception {
-        System.out.println("============ calcularBhaskaraComDeltaNegativo ============");
+        System.out.println("============ calcularIMCComPesoNegativo ============");
 //        arrange
         double atual = 0;
         double esperado = 0;
@@ -147,7 +147,7 @@ public class CalculosTest {
 
     @Test(expected = Exception.class)
     public void calcularIMCComAlturaNegativo() throws Exception {
-        System.out.println("============ calcularBhaskaraComDeltaNegativo ============");
+        System.out.println("============ calcularIMCComAlturaNegativo ============");
 //        arrange
         double atual = 0;
         double esperado = 0;
